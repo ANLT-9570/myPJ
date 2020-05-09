@@ -11,7 +11,21 @@
 
     <groupId>com.micro.xc</groupId>
     <artifactId>micro-xc-service-api</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>micro-xc-service-api-wechat</module>
+        <module>micro-xc-service-api-member</module>
+    </modules>
 
+    <dependencies>
+        <!-- swagger2 -->
+        <dependency>
+            <groupId>com.spring4all</groupId>
+            <artifactId>swagger-spring-boot-starter</artifactId>
+            <version>1.7.0.RELEASE</version>
+        </dependency>
+
+    </dependencies>
 
 </project>

@@ -6,30 +6,43 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="micro-xc-service-wechat" />
+        <module name="micro-xc-basics-zuul" />
+        <module name="micro-xc-service-api-member" />
         <module name="micro-xc-common" />
-        <module name="micro-xc-service-impl" />
         <module name="micro-xc-basics-eureka" />
-        <module name="micro-xc-service-api" />
+        <module name="micro-xc-service-api-wechat" />
         <module name="micro-xc-portal" />
+        <module name="micro-xc-service-member" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="micro-xc-basics" target="1.8" />
       <module name="micro-xc-basics-eureka" target="1.8" />
+      <module name="micro-xc-basics-zuul" target="1.8" />
       <module name="micro-xc-common" target="1.8" />
       <module name="micro-xc-parent" target="1.8" />
       <module name="micro-xc-portal" target="1.8" />
       <module name="micro-xc-service-api" target="1.8" />
+      <module name="micro-xc-service-api-member" target="1.8" />
+      <module name="micro-xc-service-api-wechat" target="1.8" />
       <module name="micro-xc-service-impl" target="1.8" />
+      <module name="micro-xc-service-member" target="1.8" />
+      <module name="micro-xc-service-wechat" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="micro-xc-basics-eureka" options="-parameters" />
+      <module name="micro-xc-basics-zuul" options="-parameters" />
       <module name="micro-xc-common" options="-parameters" />
       <module name="micro-xc-portal" options="-parameters" />
       <module name="micro-xc-service-api" options="-parameters" />
+      <module name="micro-xc-service-api-member" options="-parameters" />
+      <module name="micro-xc-service-api-wechat" options="-parameters" />
       <module name="micro-xc-service-impl" options="-parameters" />
+      <module name="micro-xc-service-member" options="-parameters" />
+      <module name="micro-xc-service-wechat" options="-parameters" />
     </option>
   </component>
 </project>
