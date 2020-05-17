@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-xc-api-entitys" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-xc-api-entitys" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-xc-api-entitys/micro-xc-api-member-entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-xc-api-entitys/micro-xc-api-wechat-entity" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/micro-xc-basics" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-zuul" charset="UTF-8" />
