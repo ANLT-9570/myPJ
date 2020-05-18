@@ -15,6 +15,7 @@
         <module>micro-xc-common</module>
         <module>micro-xc-portal</module>
         <module>micro-xc-api-entitys</module>
+        <module>micro-xc-api-dto</module>
     </modules>
 
     <parent>

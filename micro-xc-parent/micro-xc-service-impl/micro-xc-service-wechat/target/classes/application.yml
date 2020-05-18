@@ -5,7 +5,42 @@ server:
 spring:
   application:
     name: xc-wechat #服务名称
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://cdb-am792v42.bj.tencentcdb.com:10041/xc_wechat?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: wech111933
+    #    type: com.alibaba.druid.pool.DruidDataSource
+    # 下面为连接池的补充设置，应用到上面所有数据源中
+    initial-size: 5
+    min-idle: 5
+    max-active: 20
+    # 配置获取连接等待超时的时间
+    max-wait: 30000
 
+    # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+    time-between-eviction-runs-millis: 60000
+
+    # 配置一个连接在池中最小生存的时间，单位是毫秒
+    min-evictable-idle-time-millis: 300000
+    validation-query: select '1' from dual
+    test-while-idle: true
+    test-on-borrow: false
+    test-on-return: false
+    pool-prepared-statements: true
+    max-open-prepared-statements: 20
+    max-pool-prepared-statement-per-connection-size: 20
+    filters: stat,wall,slf4j
+    logSlowSql: true
+
+    #durid登陆账号密码
+    druid:
+      stat-view-servlet:
+        login-username: root
+        login-password: 123456
+
+  main:
+    allow-bean-definition-overriding: true
 
 ###服务注册到eureka注册中心的地址
 eureka:

@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/micro-xc-api-entitys/micro-xc-api-entitys.iml" filepath="$PROJECT_DIR$/micro-xc-api-entitys/micro-xc-api-entitys.iml" />
-      <module fileurl="file://$PROJECT_DIR$/micro-xc-api-entitys/micro-xc-api-member-entity/micro-xc-api-member-entity.iml" filepath="$PROJECT_DIR$/micro-xc-api-entitys/micro-xc-api-member-entity/micro-xc-api-member-entity.iml" />
-      <module fileurl="file://$PROJECT_DIR$/micro-xc-api-entitys/micro-xc-api-wechat-entity/micro-xc-api-wechat-entity.iml" filepath="$PROJECT_DIR$/micro-xc-api-entitys/micro-xc-api-wechat-entity/micro-xc-api-wechat-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-xc-api-dto/micro-xc-api-dto.iml" filepath="$PROJECT_DIR$/micro-xc-api-dto/micro-xc-api-dto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-xc-api-dto/micro-xc-api-member-dto/micro-xc-api-member-dto.iml" filepath="$PROJECT_DIR$/micro-xc-api-dto/micro-xc-api-member-dto/micro-xc-api-member-dto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-xc-api-dto/micro-xc-api-wechat-dto/micro-xc-api-wechat-dto.iml" filepath="$PROJECT_DIR$/micro-xc-api-dto/micro-xc-api-wechat-dto/micro-xc-api-wechat-dto.iml" />
       <module fileurl="file://$PROJECT_DIR$/micro-xc-basics/micro-xc-basics.iml" filepath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-eureka/micro-xc-basics-eureka.iml" filepath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-eureka/micro-xc-basics-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-zuul/micro-xc-basics-zuul.iml" filepath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-zuul/micro-xc-basics-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/micro-xc-common/micro-xc-common.iml" filepath="$PROJECT_DIR$/micro-xc-common/micro-xc-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/micro-xc-common-core.iml" filepath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/micro-xc-common-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/micro-xc-parent.iml" filepath="$PROJECT_DIR$/.idea/micro-xc-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/micro-xc-portal/micro-xc-portal.iml" filepath="$PROJECT_DIR$/micro-xc-portal/micro-xc-portal.iml" />
       <module fileurl="file://$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api.iml" filepath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api.iml" />

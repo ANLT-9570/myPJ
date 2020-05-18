@@ -1,6 +1,6 @@
 package com.xc.service;
 
-import com.xc.entity.WeChat;
+import com.xc.output.dto.WeChat;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -17,7 +17,7 @@
     <dependencies>
         <dependency>
             <groupId>com.micro.xc</groupId>
-            <artifactId>micro-xc-api-wechat-entity</artifactId>
+            <artifactId>micro-xc-api-wechat-dto</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>

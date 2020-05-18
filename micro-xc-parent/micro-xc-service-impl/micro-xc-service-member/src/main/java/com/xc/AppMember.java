@@ -11,7 +11,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableEurekaClient
 @EnableFeignClients
 @EnableSwagger2Doc
-@MapperScan("com.xc.mapper")
 public class AppMember {
     public static void main(String[] args) {
         SpringApplication.run(AppMember.class,args);

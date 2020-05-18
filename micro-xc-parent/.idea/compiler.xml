@@ -6,27 +6,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="micro-xc-api-member-entity" />
-        <module name="micro-xc-api-wechat-entity" />
-        <module name="micro-xc-basics-eureka" />
         <module name="micro-xc-basics-zuul" />
-        <module name="micro-xc-common" />
-        <module name="micro-xc-portal" />
         <module name="micro-xc-service-api-member" />
         <module name="micro-xc-service-api-wechat" />
-        <module name="micro-xc-service-member" />
-        <module name="micro-xc-service-wechat" />
+        <module name="micro-xc-api-wechat-dto" />
+        <module name="micro-xc-basics-eureka" />
         <module name="microxcapimemberentity" />
+        <module name="micro-xc-service-wechat" />
+        <module name="micro-xc-api-member-dto" />
+        <module name="micro-xc-common-core" />
+        <module name="micro-xc-portal" />
+        <module name="micro-xc-service-member" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="micro-xc-api-dto" target="1.8" />
       <module name="micro-xc-api-entitys" target="1.8" />
+      <module name="micro-xc-api-member-dto" target="1.8" />
       <module name="micro-xc-api-member-entity" target="1.8" />
+      <module name="micro-xc-api-wechat-dto" target="1.8" />
       <module name="micro-xc-api-wechat-entity" target="1.8" />
       <module name="micro-xc-basics" target="1.8" />
       <module name="micro-xc-basics-eureka" target="1.8" />
       <module name="micro-xc-basics-zuul" target="1.8" />
       <module name="micro-xc-common" target="1.8" />
+      <module name="micro-xc-common-core" target="1.8" />
       <module name="micro-xc-parent" target="1.8" />
       <module name="micro-xc-portal" target="1.8" />
       <module name="micro-xc-service-api" target="1.8" />
@@ -41,12 +45,16 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="micro-xc-api-dto" options="-parameters" />
       <module name="micro-xc-api-entitys" options="-parameters" />
+      <module name="micro-xc-api-member-dto" options="-parameters" />
       <module name="micro-xc-api-member-entity" options="-parameters" />
+      <module name="micro-xc-api-wechat-dto" options="-parameters" />
       <module name="micro-xc-api-wechat-entity" options="-parameters" />
       <module name="micro-xc-basics-eureka" options="-parameters" />
       <module name="micro-xc-basics-zuul" options="-parameters" />
       <module name="micro-xc-common" options="-parameters" />
+      <module name="micro-xc-common-core" options="-parameters" />
       <module name="micro-xc-portal" options="-parameters" />
       <module name="micro-xc-service-api" options="" />
       <module name="micro-xc-service-api-member" options="-parameters" />

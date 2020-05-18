@@ -5,6 +5,8 @@ server:
 spring:
   application:
     name: xc-member #服务名称
+  redis:
+    host: 120.79.42.229
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://cdb-am792v42.bj.tencentcdb.com:10041/xc_member?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
@@ -71,3 +73,8 @@ swagger:
   contact:
     name: xc
     email: 666
+## 打印mybatis sql日志
+logging:
+  level:
+    ##开发环境使用debug 生产环境使用info或者error
+    com.xc.mapper: debug
