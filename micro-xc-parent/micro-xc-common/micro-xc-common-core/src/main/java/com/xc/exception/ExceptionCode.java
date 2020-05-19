@@ -15,6 +15,9 @@ public class ExceptionCode {
         static final public Tuple2<String,String> NOT_USER = new Tuple2<>("20005","用户信息不存在");
 
         static final public Tuple2<String,String> NOT_TYPE = new Tuple2<>("20006","类型不能为空");
+        static final public Tuple2<String,String> NOT_TOKEN = new Tuple2<>("20009","token不能为空");
+
+        static final public Tuple2<String,String> EXPIRE_TOKEN = new Tuple2<>("20010","token已经过期");
 
         static final public Tuple2<String,String> ERROR_TYPE = new Tuple2<>("20007","暂未开放该用户端登录");
         static final public Tuple2<String,String> ERROR_USER = new Tuple2<>("20008","用户名或密码错误");

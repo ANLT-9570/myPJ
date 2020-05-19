@@ -7,6 +7,7 @@ spring:
     name: xc-member #服务名称
   redis:
     host: 120.79.42.229
+    timeout: 30000
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://cdb-am792v42.bj.tencentcdb.com:10041/xc_member?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC

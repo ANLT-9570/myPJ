@@ -24,7 +24,7 @@ public class MemberRegisterServiceImpl implements MemberRegisterService {
 
     @Override
     public Result register(
-            @RequestBody UserInpDTO userInpDTO, String registerCode) throws Exception {
+            @RequestBody UserInpDTO userInpDTO, String registerCode){
 
         //用户名
         if(StringUtils.isEmpty(userInpDTO.getUserName())){
@@ -36,8 +36,8 @@ public class MemberRegisterServiceImpl implements MemberRegisterService {
         if(StringUtils.isEmpty(userInpDTO.getMobile())){
             return FailureResult.failureResult(ExceptionCode.Failure.NOT_PHONE);
         }
-            String newPwd = MD5Util.getMD5Code(userInpDTO.getPassword());
-            userInpDTO.setPassword(newPwd);
+        String newPwd = MD5Util.getMD5Code(userInpDTO.getPassword());
+        userInpDTO.setPassword(newPwd);
         UserDo userDo = BeanUtil.dtoToDo(userInpDTO, UserDo.class);
         userMapper.insert(userDo);
         return Result.successResult();

@@ -2,91 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33f50fdc-57dd-4f86-b776-6173efbc55de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_48_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_48_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_48_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_48_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_48_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_48_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-api-dto/micro-xc-api-dto.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-api-dto/micro-xc-api-member-dto/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-api-dto/micro-xc-api-member-dto/src/main/java/com/xc/input/dto/UserLoginInpDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-api-dto/micro-xc-api-member-dto/src/main/java/com/xc/output/dto/UserOutDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-api-dto/micro-xc-api-member-dto/src/main/java/com/xc/test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-api-dto/micro-xc-api-wechat-dto/micro-xc-api-wechat-dto.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-api-dto/micro-xc-api-wechat-dto/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-api-dto/micro-xc-api-wechat-dto/src/main/java/com/xc/output/dto/WeChat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-api-dto/micro-xc-api-wechat-dto/src/main/java/com/xc/test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/Tuple2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/Tuple3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/bean/BeanUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/enums/ConstantsEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/exception/BaseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/exception/ExceptionCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/redis/RedisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/result/FailureResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/result/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/result/SuccessResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/token/GenerateToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/utils/MD5Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/src/main/java/com/xc/service/MemberLoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/exception/GlobalException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/mapper/entity/UserDo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/serviceImpl/MemberLoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/base/BaseDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/utils/RedisDataSourceTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/web/test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-portal/micro-xc-portal-web/micro-xc-portal-web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-portal/micro-xc-portal-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-portal/micro-xc-portal-web/src/main/java/com/xc/web/controller/RegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-portal/micro-xc-portal-web/src/main/java/com/xc/web/feign/MemberRegisterServiceFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-portal/micro-xc-portal-web/src/main/java/com/xc/web/vo/RegisterVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-portal/micro-xc-portal-web/src/main/java/com/xc/web/webApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-portal/micro-xc-portal-web/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/mapper/UserTokenMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/mapper/entity/UserTokenDo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-xc-api-entitys/micro-xc-api-entitys.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-xc-api-entitys/micro-xc-api-member-entity/micro-xc-api-member-entity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-api-dto/micro-xc-api-member-dto/micro-xc-api-member-dto.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-xc-api-entitys/micro-xc-api-member-entity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-xc-api-entitys/micro-xc-api-member-entity/src/main/java/com/xc/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-api-dto/micro-xc-api-member-dto/src/main/java/com/xc/input/dto/UserInpDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-xc-api-entitys/micro-xc-api-member-entity/target/classes/com/xc/entity/UserEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-xc-api-entitys/micro-xc-api-wechat-entity/micro-xc-api-wechat-entity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/micro-xc-common-core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-xc-api-entitys/micro-xc-api-wechat-entity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-api-dto/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-xc-api-entitys/micro-xc-api-wechat-entity/src/main/java/com/xc/entity/WeChat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-xc-api-entitys/micro-xc-api-wechat-entity/target/classes/com/xc/entity/WeChat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-xc-api-entitys/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/micro-xc-common-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/micro-xc-common-core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/enums/ConstantsEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/enums/ConstantsEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/exception/ExceptionCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/exception/ExceptionCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/redis/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/redis/RedisUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/utils/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/utils/MD5Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/target/classes/com/xc/enums/ConstantsEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/target/classes/com/xc/enums/ConstantsEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/target/classes/com/xc/exception/ExceptionCode$Failure.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/target/classes/com/xc/exception/ExceptionCode$Failure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/target/classes/com/xc/redis/RedisUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/target/classes/com/xc/redis/RedisUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro-xc-common/micro-xc-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro-xc-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-portal/micro-xc-portal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-portal/micro-xc-portal.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-portal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-portal/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/micro-xc-service-api-member.iml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/micro-xc-service-api-member.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/src/main/java/com/xc/service/MemberRegisterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/src/main/java/com/xc/service/MemberRegisterService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/src/main/java/com/xc/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/src/main/java/com/xc/service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/target/classes/com/xc/entity/member.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/target/classes/com/xc/service/MemberRegisterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/target/classes/com/xc/service/MemberRegisterService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/target/classes/com/xc/service/MemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/target/classes/com/xc/service/MemberService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-wechat/micro-xc-service-api-wechat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-wechat/micro-xc-service-api-wechat.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-wechat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-wechat/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-wechat/src/main/java/com/xc/service/WeChatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-wechat/src/main/java/com/xc/service/WeChatService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-wechat/target/classes/com/xc/entity/WeChat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-wechat/target/classes/com/xc/service/WeChatService.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-wechat/target/classes/com/xc/service/WeChatService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-xc-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-impl.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/micro-xc-service-member.iml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/micro-xc-service-member.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/AppMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/AppMember.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/serviceImpl/MemberLoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/serviceImpl/MemberLoginServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/serviceImpl/MemberRegisterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/serviceImpl/MemberRegisterServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/serviceImpl/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/serviceImpl/MemberServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/target/classes/com/xc/AppMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/target/classes/com/xc/AppMember.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/target/classes/com/xc/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/target/classes/com/xc/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/target/classes/com/xc/serviceImpl/MemberRegisterServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/target/classes/com/xc/serviceImpl/MemberRegisterServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/target/classes/com/xc/serviceImpl/MemberLoginServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/target/classes/com/xc/serviceImpl/MemberLoginServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/target/classes/com/xc/serviceImpl/MemberServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/target/classes/com/xc/serviceImpl/MemberServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/micro-xc-service-wechat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/micro-xc-service-wechat.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/src/main/java/com/xc/serviceImpl/WeChatServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/src/main/java/com/xc/serviceImpl/WeChatServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/target/classes/com/xc/serviceImpl/WeChatServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/target/classes/com/xc/serviceImpl/WeChatServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -108,6 +68,7 @@
     <ignored path="$PROJECT_DIR$/micro-xc-api-dto/target/" />
     <ignored path="$PROJECT_DIR$/micro-xc-api-dto/micro-xc-api-member-dto/target/" />
     <ignored path="$PROJECT_DIR$/micro-xc-api-dto/micro-xc-api-wechat-dto/target/" />
+    <ignored path="$PROJECT_DIR$/micro-xc-portal/micro-xc-portal-web/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,35 +80,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/src/main/java/com/xc/service/MemberRegisterService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/src/main/java/com/xc/service/MemberLoginService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/serviceImpl/MemberLoginServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/micro-xc-portal/micro-xc-portal-web/src/main/java/com/xc/web/controller/RegisterController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="52" column="42" lean-forward="true" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+            <state relative-caret-position="426">
+              <caret line="30" column="61" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,19 +93,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/micro-xc-common/pom.xml">
+        <entry file="file://$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/enums/ConstantsEnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+            <state relative-caret-position="120">
+              <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/exception/ExceptionCode.java">
+        <entry file="file://$PROJECT_DIR$/micro-xc-portal/micro-xc-portal-web/src/main/java/com/xc/web/vo/RegisterVo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="19" column="60" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="60" />
+            <state relative-caret-position="192">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/micro-xc-portal/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/web/test1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -178,8 +136,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -189,24 +147,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/pom.xml" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/feign/WeChatServiceFeign.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/config/SwaggerConfig.java" />
-        <option value="$PROJECT_DIR$/micro-xc-basics/pom.xml" />
-        <option value="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-zuul/pom.xml" />
-        <option value="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-zuul/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-zuul/src/main/java/com/xc/AppZuul.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/src/main/java/com/xc/AppWeChat.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/pom.xml" />
-        <option value="$PROJECT_DIR$/micro-xc-api-entitys/pom.xml" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/Result.java" />
         <option value="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/SuccessResult.java" />
         <option value="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/Tuple3.java" />
         <option value="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/result/Result.java" />
         <option value="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/result/FailureResult.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/pom.xml" />
         <option value="$PROJECT_DIR$/micro-xc-service-api/pom.xml" />
         <option value="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/utils/MD5.java" />
         <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/AppMember.java" />
@@ -217,9 +161,7 @@
         <option value="$PROJECT_DIR$/micro-xc-api-dto/micro-xc-api-member-dto/src/main/java/com/xc/input/dto/UserInpDto.java" />
         <option value="$PROJECT_DIR$/micro-xc-api-dto/micro-xc-api-member-dto/src/main/java/com/xc/output/dto/UserOutDto.java" />
         <option value="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-wechat/pom.xml" />
-        <option value="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/src/main/java/com/xc/service/MemberRegisterService.java" />
         <option value="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/pom.xml" />
-        <option value="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/src/main/java/com/xc/service/MemberService.java" />
         <option value="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-wechat/src/main/java/com/xc/service/WeChatService.java" />
         <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/src/main/java/com/xc/serviceImpl/WeChatServiceImpl.java" />
         <option value="$PROJECT_DIR$/micro-xc-api-dto/micro-xc-api-wechat-dto/src/main/java/com/xc/output/dto/WeChat.java" />
@@ -227,19 +169,35 @@
         <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/exception/GloableException.java" />
         <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/exception/GlobalException.java" />
         <option value="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/bean/BeanUtil.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/serviceImpl/MemberRegisterServiceImpl.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/serviceImpl/MemberServiceImpl.java" />
         <option value="$PROJECT_DIR$/micro-xc-api-dto/micro-xc-api-member-dto/src/main/java/com/xc/input/dto/UserLoginInpDTO.java" />
         <option value="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/src/main/java/com/xc/service/MemberLoginService.java" />
         <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/mapper/entity/UserDo.java" />
-        <option value="$PROJECT_DIR$/micro-xc-common/pom.xml" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/redis/RedisUtil.java" />
         <option value="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/token/GenerateToken.java" />
         <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/enums/ConstantsEnum.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/src/main/java/com/xc/service/MemberService.java" />
         <option value="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/exception/ExceptionCode.java" />
+        <option value="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/base/BaseDo.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/mapper/UserTokenMapper.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/mapper/entity/UserTokenDo.java" />
+        <option value="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/redis/RedisUtil.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-xc-common/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/utils/RedisDataSourceTransaction.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/micro-xc-portal/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-xc-portal/micro-xc-portal-web/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/serviceImpl/MemberLoginServiceImpl.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/serviceImpl/MemberServiceImpl.java" />
+        <option value="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/web/test1.java" />
+        <option value="$PROJECT_DIR$/micro-xc-portal/micro-xc-portal-web/src/main/java/com/xc/web/webApplication.java" />
+        <option value="$PROJECT_DIR$/micro-xc-portal/micro-xc-portal-web/src/main/java/com/xc/web/vo/RegisterVo.java" />
+        <option value="$PROJECT_DIR$/micro-xc-portal/micro-xc-portal-web/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-xc-portal/micro-xc-portal-web/src/main/java/com/xc/web/feign/MemberRegisterServiceFeign.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/serviceImpl/MemberRegisterServiceImpl.java" />
+        <option value="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/utils/MD5Util.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/src/main/java/com/xc/service/MemberRegisterService.java" />
+        <option value="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/enums/ConstantsEnum.java" />
+        <option value="$PROJECT_DIR$/micro-xc-portal/micro-xc-portal-web/src/main/java/com/xc/web/controller/RegisterController.java" />
       </list>
     </option>
   </component>
@@ -309,6 +267,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -324,57 +284,6 @@
             <path>
               <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-api-dto" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-api-member-dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-api-dto" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-api-member-dto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-api-dto" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-api-member-dto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-api-dto" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-api-member-dto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-api-dto" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-api-member-dto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-api-dto" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-api-member-dto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xc" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
               <item name="micro-xc-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -426,50 +335,39 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xc" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-common" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-common-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xc" type="462c0819:PsiDirectoryNode" />
-              <item name="token" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-xc-portal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-xc-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-xc-portal-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-api-member" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-api-member" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-xc-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-xc-portal-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-api-member" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-xc-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-xc-portal-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-api-member" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-xc-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-xc-portal-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -477,23 +375,12 @@
             <path>
               <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-api-member" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-xc-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-xc-portal-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-api-member" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xc" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -520,75 +407,11 @@
               <item name="micro-xc-service-member" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-member" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-member" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-member" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xc" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-member" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xc" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-member" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xc" type="462c0819:PsiDirectoryNode" />
-              <item name="serviceImpl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-member" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -600,7 +423,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588950466051" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../weixin-java-mp-demo-springboot-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/micro-xc-portal/micro-xc-portal-web/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
@@ -610,12 +433,8 @@
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/config/SwaggerConfig.java" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\cloud\myPJ\micro-xc-parent\micro-xc-common\micro-xc-common-core\src\main\java\com\xc\exception" />
-      <recent name="D:\cloud\myPJ\micro-xc-parent\micro-xc-common\micro-xc-common-core\src\main\java\com\xc" />
-      <recent name="D:\cloud\myPJ\micro-xc-parent\micro-xc-basics\micro-xc-basics-zuul\src\main\resources" />
-      <recent name="D:\cloud\myPJ\micro-xc-parent\micro-xc-service-impl\micro-xc-service-member\src\main\resources" />
-      <recent name="D:\cloud\myPJ\micro-xc-parent\micro-xc-service-impl\micro-xc-service-wechat\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\study\myPJ\micro-xc-parent\micro-xc-api-entitys\micro-xc-api-member-entity" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.xc.output.dto" />
@@ -624,8 +443,12 @@
       <recent name="com.xc" />
       <recent name="com.xc.entity" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\study\myPJ\micro-xc-parent\micro-xc-api-entitys\micro-xc-api-member-entity" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\cloud\myPJ\micro-xc-parent\micro-xc-portal\micro-xc-portal-web\src\main\resources" />
+      <recent name="D:\cloud\myPJ\micro-xc-parent\micro-xc-common\micro-xc-common-core\src\main\java\com\xc\exception" />
+      <recent name="D:\cloud\myPJ\micro-xc-parent\micro-xc-common\micro-xc-common-core\src\main\java\com\xc" />
+      <recent name="D:\cloud\myPJ\micro-xc-parent\micro-xc-basics\micro-xc-basics-zuul\src\main\resources" />
+      <recent name="D:\cloud\myPJ\micro-xc-parent\micro-xc-service-impl\micro-xc-service-member\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -644,9 +467,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.040938865" />
+    <option name="contentProportion" value="0.13482533" />
   </component>
-  <component name="RunManager" selected="Spring Boot.AppMember (1)">
+  <component name="RunManager" selected="Spring Boot.webApplication">
     <configuration name="AppEureka" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="micro-xc-basics-eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xc.AppEureka" />
@@ -659,26 +482,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xc.AppMember" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppMember" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="micro-xc-service-api-member" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xc.AppMember" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppMember" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="micro-xc-service-member" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xc.result.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -713,8 +516,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="webApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="micro-xc-portal-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xc.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xc.web.webApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.webApplication" />
         <item itemvalue="Spring Boot.AppMember (1)" />
         <item itemvalue="Spring Boot.AppWeChat" />
         <item itemvalue="Spring Boot.AppZuul" />
@@ -749,17 +566,19 @@
       <workItem from="1589451688289" duration="287000" />
       <workItem from="1589502770391" duration="1806000" />
       <workItem from="1589768373103" duration="2204000" />
-      <workItem from="1589777954447" duration="14186000" />
+      <workItem from="1589777954447" duration="14317000" />
+      <workItem from="1589848338735" duration="10882000" />
+      <workItem from="1589864310840" duration="11787000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40968000" />
+    <option name="totallyTimeSpent" value="63768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.03907923" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26605996" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -781,8 +600,8 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067383" side_tool="true" weight="0.3275862" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.18171428" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49932614" visible="true" weight="0.344" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.42057142" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49932614" visible="true" weight="0.30742857" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -798,145 +617,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/serviceImpl/MemberRegisterServiceImpl.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/serviceImpl/MemberLoginServiceImpl.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-zuul/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/Tuple2.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/Tuple3.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/result/SuccessResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/exception/BaseException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/result/FailureResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/result/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="888">
-          <caret line="52" column="33" lean-forward="true" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/utils/MD5Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-annotation/3.2.0/mybatis-plus-annotation-3.2.0.jar!/com/baomidou/mybatisplus/annotation/TableField.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-api-entitys/micro-xc-api-member-entity/src/main/java/com/xc/entity/UserEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/AppMember.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/src/main/java/com/xc/AppWeChat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-api-dto/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -947,13 +632,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-api-entitys/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-api-entitys/pom.xml" />
     <entry file="file://$PROJECT_DIR$/micro-xc-api-dto/micro-xc-api-member-dto/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
@@ -978,27 +657,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-wechat/src/main/java/com/xc/service/WeChatService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/src/main/java/com/xc/service/MemberService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1019,20 +681,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-core/3.2.0/mybatis-plus-core-3.2.0.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-api-dto/micro-xc-api-member-dto/src/main/java/com/xc/output/dto/UserOutDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -1082,25 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/serviceImpl/MemberRegisterServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/serviceImpl/MemberServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/micro-xc-api-dto/micro-xc-api-member-dto/src/main/java/com/xc/input/dto/UserLoginInpDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
@@ -1108,30 +737,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/src/main/java/com/xc/service/MemberRegisterService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1152,27 +757,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/redis/RedisUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/token/GenerateToken.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        <state relative-caret-position="210">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#520#521#0" expanded="true" />
@@ -1181,38 +769,259 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/enums/ConstantsEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/exception/ExceptionCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="19" column="60" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="60" />
+        <state relative-caret-position="210">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/src/main/java/com/xc/service/MemberLoginService.java">
+    <entry file="file://$PROJECT_DIR$/micro-xc-api-dto/micro-xc-api-member-dto/src/main/java/com/xc/output/dto/UserOutDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="72">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-core/3.2.0/mybatis-plus-core-3.2.0.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/base/BaseDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/src/main/java/com/xc/service/MemberLoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/mapper/entity/UserTokenDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/mapper/UserTokenMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/src/main/java/com/xc/service/MemberService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-api-dto/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/redis/RedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="70" column="12" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1477#1478#0" expanded="true" />
+            <element signature="e#1503#1504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-portal/micro-xc-portal-web/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/serviceImpl/MemberLoginServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="52" column="42" lean-forward="true" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+        <state relative-caret-position="24">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/utils/RedisDataSourceTransaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/serviceImpl/MemberServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-425">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/web/test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-portal/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-portal/micro-xc-portal-web/src/main/java/com/xc/web/vo/RegisterVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-portal/micro-xc-portal-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/utils/MD5Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/src/main/java/com/xc/serviceImpl/MemberRegisterServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/src/main/java/com/xc/service/MemberRegisterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="106" selection-start-line="21" selection-start-column="106" selection-end-line="21" selection-end-column="106" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-portal/micro-xc-portal-web/src/main/java/com/xc/web/webApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-portal/micro-xc-portal-web/src/main/java/com/xc/web/feign/MemberRegisterServiceFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/enums/ConstantsEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-portal/micro-xc-portal-web/src/main/java/com/xc/web/controller/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="30" column="61" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

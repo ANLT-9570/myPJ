@@ -3,7 +3,7 @@ package com.xc.enums;
 public enum  ConstantsEnum {
 
     IOS("1001","IOS"),PC("1002","PC"),ANDROID("1003","ANDROID"),
-    KEY_PREFIX("10011","xc_");
+    KEY_PREFIX("10011","xc_"),SUCCESS("10000","10000");
 
 
     public  String code;

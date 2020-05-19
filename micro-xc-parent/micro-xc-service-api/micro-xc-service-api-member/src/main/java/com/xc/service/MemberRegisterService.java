@@ -19,5 +19,5 @@ public interface MemberRegisterService {
      */
     @PostMapping("/register")
     @ApiOperation(value = "会员用户注册信息接口")
-    Result register(@RequestBody UserInpDTO userInpDTO, @RequestParam("registerCode") String registerCode) throws Exception;
+    Result register(@RequestBody UserInpDTO userInpDTO, @RequestParam("registerCode") String registerCode);
 }

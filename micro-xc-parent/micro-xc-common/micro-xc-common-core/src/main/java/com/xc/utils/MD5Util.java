@@ -3,6 +3,7 @@ package com.xc.utils;
 
 import java.net.URLEncoder;
 import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 
 /**
  * 加密工具类
@@ -48,8 +49,13 @@ public class MD5Util {
      * @return
      * @throws Exception
      */
-    public static String getMD5Code(String strObj) throws Exception {
-        MessageDigest md = MessageDigest.getInstance(KEY_MD5);
+    public static String getMD5Code(String strObj) {
+        MessageDigest md = null;
+        try {
+            md = MessageDigest.getInstance(KEY_MD5);
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
         // md.digest() 该函数返回值为存放哈希值结果的byte数组
         return byteToString(md.digest(strObj.getBytes()));
     }

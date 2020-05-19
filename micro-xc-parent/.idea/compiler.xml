@@ -6,16 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="micro-xc-service-wechat" />
         <module name="micro-xc-basics-zuul" />
         <module name="micro-xc-service-api-member" />
         <module name="micro-xc-service-api-wechat" />
+        <module name="micro-xc-portal-web" />
         <module name="micro-xc-api-wechat-dto" />
         <module name="micro-xc-basics-eureka" />
         <module name="microxcapimemberentity" />
-        <module name="micro-xc-service-wechat" />
-        <module name="micro-xc-api-member-dto" />
         <module name="micro-xc-common-core" />
-        <module name="micro-xc-portal" />
+        <module name="micro-xc-api-member-dto" />
         <module name="micro-xc-service-member" />
       </profile>
     </annotationProcessing>
@@ -33,6 +33,7 @@
       <module name="micro-xc-common-core" target="1.8" />
       <module name="micro-xc-parent" target="1.8" />
       <module name="micro-xc-portal" target="1.8" />
+      <module name="micro-xc-portal-web" target="1.8" />
       <module name="micro-xc-service-api" target="1.8" />
       <module name="micro-xc-service-api-member" target="1.8" />
       <module name="micro-xc-service-api-wechat" target="1.8" />
@@ -56,6 +57,7 @@
       <module name="micro-xc-common" options="-parameters" />
       <module name="micro-xc-common-core" options="-parameters" />
       <module name="micro-xc-portal" options="-parameters" />
+      <module name="micro-xc-portal-web" options="-parameters" />
       <module name="micro-xc-service-api" options="" />
       <module name="micro-xc-service-api-member" options="-parameters" />
       <module name="micro-xc-service-api-wechat" options="-parameters" />
