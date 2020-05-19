@@ -12,6 +12,5 @@ import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfigurat
 public class webApplication {
     public static void main(String[] args) {
         SpringApplication.run(webApplication.class,args);
-//        new test1();
     }
 }

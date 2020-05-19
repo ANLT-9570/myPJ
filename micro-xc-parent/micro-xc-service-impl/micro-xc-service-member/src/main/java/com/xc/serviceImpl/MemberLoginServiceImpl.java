@@ -57,6 +57,7 @@ public class MemberLoginServiceImpl implements MemberLoginService {
         if(userDo == null){
             return Result.failureResult(ExceptionCode.Failure.ERROR_USER);
         }
+
         TransactionStatus transactionStatus = null;
         try {
             Long userId = userDo.getId();
