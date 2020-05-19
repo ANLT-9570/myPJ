@@ -10,10 +10,12 @@ import com.xc.web.vo.RegisterVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 
 @Controller
 public class RegisterController {
@@ -22,7 +24,7 @@ public class RegisterController {
     private MemberRegisterServiceFeign memberRegisterServiceFeign;
 
     @PostMapping("/register")
-    public String register(@ModelAttribute("registerVo")RegisterVo registerVo, BindingResult bindingResult) {
+    public String register(@ModelAttribute("registerVo") @Validated RegisterVo registerVo, BindingResult bindingResult) {
         if (bindingResult.hasErrors()){
 
         }
@@ -31,6 +33,11 @@ public class RegisterController {
         if(result.getCode().equals(ConstantsEnum.SUCCESS.code)){
 
         }
+        return null;
+    }
+
+    public String webBrowserInfo(HttpServletRequest request){
+
         return null;
     }
 

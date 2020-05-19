@@ -13,6 +13,12 @@ spring:
   application:
     name: xc-web
 
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://cdb-am792v42.bj.tencentcdb.com:10041/xc_member?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: wech111933
+
 ###服务注册到eureka注册中心的地址
 eureka:
   client:
@@ -30,4 +36,6 @@ eureka:
     ip-address: 127.0.0.1   #134.175.244.202
     #设置外网端口号
     non-secure-port: 8300
+server:
+  port: 10010
 #    hostname: 127.0.0.1
