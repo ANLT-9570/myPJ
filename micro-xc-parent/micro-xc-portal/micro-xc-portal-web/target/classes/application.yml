@@ -9,7 +9,11 @@ spring:
     expose-request-attributes: true
     expose-session-attributes: true
     request-context-attribute: request
-    suffix: .ftl
+    suffix: .html
+      #设定静态文件路径，js,css等
+      #spring.resources.static-locations=classpath:/templates/,classpath:/static/
+    template-loader-path: classpath:/templates/
+    #static-locations: classpath:/static/
   application:
     name: xc-web
 
@@ -18,6 +22,8 @@ spring:
     url: jdbc:mysql://cdb-am792v42.bj.tencentcdb.com:10041/xc_member?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
     username: root
     password: wech111933
+  mvc:
+    static-path-pattern: /**/**
 
 ###服务注册到eureka注册中心的地址
 eureka:
@@ -35,7 +41,19 @@ eureka:
     #设置外网IP号
     ip-address: 127.0.0.1   #134.175.244.202
     #设置外网端口号
-    non-secure-port: 8300
+    non-secure-port: 10010
 server:
   port: 10010
 #    hostname: 127.0.0.1
+
+### xxl-sso
+xxl-sso:
+  excluded:
+    paths:
+xxl:
+  sso:
+    server: http://xc.com:9090/xxl-sso-server
+    logout:
+      path: /logout
+    redis:
+      address: redis://127.0.0.1:6379

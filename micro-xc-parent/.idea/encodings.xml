@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+  <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/micro-xc-api-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/micro-xc-api-dto/micro-xc-api-member-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/micro-xc-api-dto/micro-xc-api-wechat-dto" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/micro-xc-api-entitys" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/micro-xc-api-entitys/micro-xc-api-member-entity" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/micro-xc-api-entitys/micro-xc-api-wechat-entity" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/micro-xc-basics" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-xxl-sso-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-zuul" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/micro-xc-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/micro-xc-common/micro-xc-common-core" charset="UTF-8" />

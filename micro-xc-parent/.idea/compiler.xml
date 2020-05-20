@@ -8,9 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="micro-xc-service-wechat" />
         <module name="micro-xc-basics-zuul" />
-        <module name="micro-xc-service-api-member" />
-        <module name="micro-xc-service-api-wechat" />
         <module name="micro-xc-portal-web" />
+        <module name="micro-xc-service-api-wechat" />
+        <module name="micro-xc-service-api-member" />
+        <module name="micro-xc-basics-xxl-sso-server" />
         <module name="micro-xc-api-wechat-dto" />
         <module name="micro-xc-basics-eureka" />
         <module name="microxcapimemberentity" />
@@ -28,6 +29,7 @@
       <module name="micro-xc-api-wechat-entity" target="1.8" />
       <module name="micro-xc-basics" target="1.8" />
       <module name="micro-xc-basics-eureka" target="1.8" />
+      <module name="micro-xc-basics-xxl-sso-server" target="1.8" />
       <module name="micro-xc-basics-zuul" target="1.8" />
       <module name="micro-xc-common" target="1.8" />
       <module name="micro-xc-common-core" target="1.8" />
@@ -53,6 +55,7 @@
       <module name="micro-xc-api-wechat-dto" options="-parameters" />
       <module name="micro-xc-api-wechat-entity" options="-parameters" />
       <module name="micro-xc-basics-eureka" options="-parameters" />
+      <module name="micro-xc-basics-xxl-sso-server" options="-parameters" />
       <module name="micro-xc-basics-zuul" options="-parameters" />
       <module name="micro-xc-common" options="-parameters" />
       <module name="micro-xc-common-core" options="-parameters" />

@@ -1,8 +1,10 @@
 package com.xc.serviceImpl;
 
 import com.xc.bean.BeanUtil;
+import com.xc.enums.ConstantsEnum;
 import com.xc.exception.ExceptionCode;
 import com.xc.feign.WeChatServiceFeign;
+import com.xc.input.dto.UserLoginInpDTO;
 import com.xc.mapper.UserMapper;
 import com.xc.mapper.UserTokenMapper;
 import com.xc.mapper.entity.UserDo;
@@ -11,8 +13,10 @@ import com.xc.output.dto.WeChat;
 import com.xc.result.Result;
 import com.xc.service.MemberService;
 import com.xc.token.GenerateToken;
+import com.xc.utils.MD5Util;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
@@ -27,7 +31,7 @@ public class MemberServiceImpl implements MemberService {
     @Autowired
     GenerateToken generateToken;
     @Resource
-    UserTokenMapper userTokenMapper;
+    MemberCommon memberCommon;
 
     @Override
     public WeChat memberInvokeWeChat() {
@@ -61,5 +65,16 @@ public class MemberServiceImpl implements MemberService {
             return Result.failureResult(ExceptionCode.Failure.NOT_USER);
         }
         return Result.successResult(BeanUtil.doToDto(userDo,UserOutDTO.class));
+    }
+
+    @Override
+    public Result ssoLogin(@RequestBody UserLoginInpDTO userLoginInpDTO) {
+        Result result = memberCommon.RegisterCommon(userLoginInpDTO);
+        if(ConstantsEnum.SUCCESS.code.equals(result.getCode())){
+            UserDo userDo =(UserDo) result.getData();
+            UserOutDTO userOutDTO = BeanUtil.doToDto(userDo, UserOutDTO.class);
+            return Result.successResult(userOutDTO);
+        }
+        return result;
     }
 }

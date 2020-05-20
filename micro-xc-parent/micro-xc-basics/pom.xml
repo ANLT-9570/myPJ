@@ -16,6 +16,7 @@
     <modules>
         <module>micro-xc-basics-eureka</module>
         <module>micro-xc-basics-zuul</module>
+        <module>micro-xc-basics-xxl-sso-server</module>
     </modules>
 
 

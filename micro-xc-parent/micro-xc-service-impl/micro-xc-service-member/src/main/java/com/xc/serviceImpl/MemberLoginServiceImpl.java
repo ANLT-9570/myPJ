@@ -34,30 +34,16 @@ public class MemberLoginServiceImpl implements MemberLoginService {
     UserTokenMapper userTokenMapper;
     @Autowired
     RedisDataSourceTransaction redisDataSourceTransaction;
-
+    @Autowired
+    MemberCommon memberCommon;
     @Transactional
     @Override
     public Result login(@RequestBody UserLoginInpDTO userLoginInpDTO) throws Exception {
-        if(StringUtils.isEmpty(userLoginInpDTO.getMobile())){
-            return Result.failureResult(ExceptionCode.Failure.NOT_PHONE);
+        Result result = memberCommon.RegisterCommon(userLoginInpDTO);
+        if(!ConstantsEnum.SUCCESS.code.equals(result.getCode())){
+            return result;
         }
-        if(StringUtils.isEmpty(userLoginInpDTO.getPassword())){
-            return Result.failureResult(ExceptionCode.Failure.NOT_PWD);
-        }
-        if(StringUtils.isEmpty(userLoginInpDTO.getLoginType())){
-            return Result.failureResult(ExceptionCode.Failure.NOT_TYPE);
-        }
-        if(!(ConstantsEnum.IOS.message.equals(userLoginInpDTO.getLoginType())
-          || ConstantsEnum.ANDROID.message.equals(userLoginInpDTO.getLoginType())
-                || ConstantsEnum.PC.getMessage().equals(userLoginInpDTO.getLoginType()))){
-            return Result.failureResult(ExceptionCode.Failure.ERROR_TYPE);
-        }
-        String newPwd = MD5Util.getMD5Code(userLoginInpDTO.getPassword());
-        UserDo userDo = userMapper.selectByMobileAndPassword(userLoginInpDTO.getMobile(),newPwd);
-        if(userDo == null){
-            return Result.failureResult(ExceptionCode.Failure.ERROR_USER);
-        }
-
+        UserDo userDo = (UserDo)result.getData();
         TransactionStatus transactionStatus = null;
         try {
             Long userId = userDo.getId();

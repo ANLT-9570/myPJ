@@ -1,5 +1,6 @@
 package com.xc.service;
 
+import com.xc.input.dto.UserLoginInpDTO;
 import com.xc.output.dto.WeChat;
 import com.xc.result.Result;
 import io.swagger.annotations.Api;
@@ -30,4 +31,11 @@ public interface MemberService {
     )
     @PostMapping("/getInfo")
     Result getInfo(@RequestParam("token") String token);
+
+    @ApiOperation(value = "sso认证系统登录接口")
+    @ApiImplicitParams(
+            @ApiImplicitParam(paramType = "query",name = "userLoginInpDTO",dataType = "UserLoginInpDTO",required = true,value = "token")
+    )
+    @PostMapping("/ssoLogin")
+    Result ssoLogin(@RequestBody UserLoginInpDTO userLoginInpDTO);
 }

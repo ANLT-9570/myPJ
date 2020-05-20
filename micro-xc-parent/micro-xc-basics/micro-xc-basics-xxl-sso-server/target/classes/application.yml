@@ -1,0 +1,56 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /xc-sso-server
+###起个名字作为服务名称(该服务注册到eureka注册中心的名称，比如商品服务)
+spring:
+  application:
+    name: xc-xxl-sso #服务名称
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://cdb-am792v42.bj.tencentcdb.com:10041/xc_member?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: wech111933
+
+
+###服务注册到eureka注册中心的地址
+eureka:
+  client:
+    service-url:
+      #      defaultZone: http://120.79.42.229:7777/eureka/,http://120.79.42.229:8888/eureka/,http://120.79.42.229:9999/eureka/
+      defaultZone: http://127.0.0.1:10000/eureka/
+    ###因为该应用为服务提供者，是eureka的一个客户端，需要注册到注册中心
+    register-with-eureka: true
+    ###是否需要从eureka上检索服务
+    fetch-registry: true
+  instance:
+    #设置使用IP
+    prefer-ip-address: true
+    #设置外网IP号
+    ip-address: 127.0.0.1   #134.175.244.202
+    #设置外网端口号
+    non-secure-port: 9090
+#    hostname: 127.0.0.1
+
+
+  ### resources
+  mvc:
+    static-path-pattern: /static/**
+  resources:
+    static-locations: classpath:/static/
+
+  ### freemarker
+  freemarker:
+#    templateLoaderPath: classpath:/templates/
+    suffix: .ftl
+    charset: UTF-8
+    request-context-attribute: request
+#    settings:
+#      number_format: 0.##########
+### xxl-sso
+xxl:
+  sso:
+    redis:
+      address: redis://127.0.0.1:6379
+      expire:
+        minute: 1440
