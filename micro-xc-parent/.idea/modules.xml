@@ -19,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-wechat/micro-xc-service-api-wechat.iml" filepath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-wechat/micro-xc-service-api-wechat.iml" />
       <module fileurl="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-impl.iml" filepath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-impl.iml" />
       <module fileurl="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/micro-xc-service-member.iml" filepath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/micro-xc-service-member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/micro-xc-service-test.iml" filepath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/micro-xc-service-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/micro-xc-service-wechat.iml" filepath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/micro-xc-service-wechat.iml" />
     </modules>
   </component>

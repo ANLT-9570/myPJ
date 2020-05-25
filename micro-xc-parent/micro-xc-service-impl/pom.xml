@@ -16,6 +16,7 @@
     <modules>
         <module>micro-xc-service-wechat</module>
         <module>micro-xc-service-member</module>
+        <module>micro-xc-service-test</module>
     </modules>
 
     <dependencies>

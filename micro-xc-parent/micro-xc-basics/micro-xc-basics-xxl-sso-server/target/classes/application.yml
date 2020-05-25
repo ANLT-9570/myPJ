@@ -51,6 +51,6 @@ eureka:
 xxl:
   sso:
     redis:
-      address: redis://127.0.0.1:6379
+      address: redis://120.79.42.229:6379
       expire:
         minute: 1440

@@ -6,18 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="micro-xc-service-wechat" />
-        <module name="micro-xc-basics-zuul" />
-        <module name="micro-xc-portal-web" />
-        <module name="micro-xc-service-api-wechat" />
-        <module name="micro-xc-service-api-member" />
-        <module name="micro-xc-basics-xxl-sso-server" />
+        <module name="micro-xc-api-member-dto" />
         <module name="micro-xc-api-wechat-dto" />
         <module name="micro-xc-basics-eureka" />
-        <module name="microxcapimemberentity" />
+        <module name="micro-xc-basics-xxl-sso-server" />
+        <module name="micro-xc-basics-zuul" />
         <module name="micro-xc-common-core" />
-        <module name="micro-xc-api-member-dto" />
+        <module name="micro-xc-portal-web" />
+        <module name="micro-xc-service-api-member" />
+        <module name="micro-xc-service-api-wechat" />
         <module name="micro-xc-service-member" />
+        <module name="micro-xc-service-test" />
+        <module name="micro-xc-service-wechat" />
+        <module name="microxcapimemberentity" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -41,6 +42,7 @@
       <module name="micro-xc-service-api-wechat" target="1.8" />
       <module name="micro-xc-service-impl" target="1.8" />
       <module name="micro-xc-service-member" target="1.8" />
+      <module name="micro-xc-service-test" target="1.8" />
       <module name="micro-xc-service-wechat" target="1.8" />
       <module name="microxcapientitys" target="1.8" />
       <module name="microxcapimemberentity" target="1.8" />
@@ -66,6 +68,7 @@
       <module name="micro-xc-service-api-wechat" options="-parameters" />
       <module name="micro-xc-service-impl" options="" />
       <module name="micro-xc-service-member" options="-parameters" />
+      <module name="micro-xc-service-test" options="-parameters" />
       <module name="micro-xc-service-wechat" options="-parameters" />
       <module name="microxcapimemberentity" options="-parameters" />
     </option>
