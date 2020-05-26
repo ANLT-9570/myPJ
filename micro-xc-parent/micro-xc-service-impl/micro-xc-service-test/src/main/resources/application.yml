@@ -4,8 +4,12 @@ server:
 ###起个名字作为服务名称(该服务注册到eureka注册中心的名称，比如商品服务)
 spring:
   application:
-    name: xc-des #服务名称
-
+    name: xc-design #服务名称
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://134.175.244.202:3308/design
+    username: root
+    password: 123456
 ###服务注册到eureka注册中心的地址
 eureka:
   client:
