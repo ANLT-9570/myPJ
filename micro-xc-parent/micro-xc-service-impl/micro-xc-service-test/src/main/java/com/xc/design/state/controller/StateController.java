@@ -7,6 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.net.Inet4Address;
+import java.net.InetAddress;
+import java.net.UnknownHostException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -20,7 +23,9 @@ public class StateController {
     }
 
     @GetMapping("/st")
-    public String st(String beanId){
+    public String st(String beanId) throws UnknownHostException {
+        InetAddress localHost = Inet4Address.getLocalHost();
+        String string = localHost.getAddress().toString();
         return common(beanId);
     }
 
