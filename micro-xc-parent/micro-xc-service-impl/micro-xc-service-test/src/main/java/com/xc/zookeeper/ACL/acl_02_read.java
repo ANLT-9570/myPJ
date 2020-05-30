@@ -1,13 +1,20 @@
-package com.xc.zookeeper;
+package com.xc.zookeeper.ACL;
 
 import org.apache.zookeeper.*;
+import org.apache.zookeeper.data.ACL;
+import org.apache.zookeeper.data.Id;
+import org.apache.zookeeper.data.Stat;
+import org.apache.zookeeper.server.auth.DigestAuthenticationProvider;
 
 import java.io.IOException;
+import java.security.NoSuchAlgorithmException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.CountDownLatch;
 
-public class zookeeper_01 {
+public class acl_02_read {
     private static CountDownLatch countDownLatch = new CountDownLatch(1);
-    public static void main(String[] args) throws IOException, KeeperException, InterruptedException {
+    public static void main(String[] args) throws IOException, KeeperException, InterruptedException, NoSuchAlgorithmException {
         String url = "134.175.244.202";
         Integer timeOut  = 5000;
 
@@ -27,19 +34,14 @@ public class zookeeper_01 {
                 }
             }
         });
-        System.out.println("正在连接zk.......");
         countDownLatch.await();
-        System.out.println("开始创建节点....");
-        /**
-         * 创建节点
-         * 1，路径名称
-         * 2，节点value
-         * 3，节点权限（acl）
-         * 4，节点类型（临时和持久节点）
-         */
-        String result = zooKeeper.create("/xc/xc1", "xc".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT_SEQUENTIAL);
-        System.out.println(result);
 
-        zooKeeper.close();
+        //设置zk连接账号
+        zooKeeper.addAuthInfo("digest","guest:123".getBytes());
+
+        //获取节点内容
+        byte[] bytes = zooKeeper.getData("/test0000000004", null, new Stat());///test0000000004
+        System.out.println(new String(bytes));
+
     }
 }
