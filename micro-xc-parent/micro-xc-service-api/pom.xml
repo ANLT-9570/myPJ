@@ -16,6 +16,8 @@
     <modules>
         <module>micro-xc-service-api-wechat</module>
         <module>micro-xc-service-api-member</module>
+        <module>micro-xc-service-api-auth</module>
+        <module>micro-xc-service-api-spike</module>
     </modules>
 
     <dependencies>

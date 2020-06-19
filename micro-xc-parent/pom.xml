@@ -14,7 +14,7 @@
         <module>micro-xc-service-impl</module>
         <module>micro-xc-common</module>
         <module>micro-xc-portal</module>
-        <module>micro-xc-api-entitys</module>
+        <!--<module>micro-xc-api-entitys</module>-->
         <module>micro-xc-api-dto</module>
     </modules>
 
@@ -83,13 +83,13 @@
         </dependencies>
     </dependencyManagement>
 
-    <build>
+<!--    <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
-    </build>
+    </build>-->
 
 </project>

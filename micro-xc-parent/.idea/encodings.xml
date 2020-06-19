@@ -14,10 +14,14 @@
     <file url="file://$PROJECT_DIR$/micro-xc-portal" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/micro-xc-portal/micro-xc-portal-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/micro-xc-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-auth" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-spike" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-wechat" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/micro-xc-service-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-auth" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat" charset="UTF-8" />
   </component>

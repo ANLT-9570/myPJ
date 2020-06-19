@@ -163,5 +163,11 @@ public class WebController {
         return "redirect:/login";
     }
 
+    @RequestMapping("/tt")
+    public ModelAndView tt(ModelAndView modelAndView){
+        System.out.println("==-=");
+        modelAndView.setViewName("test2");
+        return modelAndView;
+    }
 
 }

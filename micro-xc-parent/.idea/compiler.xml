@@ -13,9 +13,13 @@
         <module name="micro-xc-basics-zuul" />
         <module name="micro-xc-common-core" />
         <module name="micro-xc-portal-web" />
+        <module name="micro-xc-service-api-auth" />
         <module name="micro-xc-service-api-member" />
+        <module name="micro-xc-service-api-spike" />
         <module name="micro-xc-service-api-wechat" />
+        <module name="micro-xc-service-auth" />
         <module name="micro-xc-service-member" />
+        <module name="micro-xc-service-spike" />
         <module name="micro-xc-service-test" />
         <module name="micro-xc-service-wechat" />
         <module name="microxcapimemberentity" />
@@ -38,10 +42,14 @@
       <module name="micro-xc-portal" target="1.8" />
       <module name="micro-xc-portal-web" target="1.8" />
       <module name="micro-xc-service-api" target="1.8" />
+      <module name="micro-xc-service-api-auth" target="1.8" />
       <module name="micro-xc-service-api-member" target="1.8" />
+      <module name="micro-xc-service-api-spike" target="1.8" />
       <module name="micro-xc-service-api-wechat" target="1.8" />
+      <module name="micro-xc-service-auth" target="1.8" />
       <module name="micro-xc-service-impl" target="1.8" />
       <module name="micro-xc-service-member" target="1.8" />
+      <module name="micro-xc-service-spike" target="1.8" />
       <module name="micro-xc-service-test" target="1.8" />
       <module name="micro-xc-service-wechat" target="1.8" />
       <module name="microxcapientitys" target="1.8" />
@@ -64,10 +72,14 @@
       <module name="micro-xc-portal" options="-parameters" />
       <module name="micro-xc-portal-web" options="-parameters" />
       <module name="micro-xc-service-api" options="" />
+      <module name="micro-xc-service-api-auth" options="-parameters" />
       <module name="micro-xc-service-api-member" options="-parameters" />
+      <module name="micro-xc-service-api-spike" options="-parameters" />
       <module name="micro-xc-service-api-wechat" options="-parameters" />
+      <module name="micro-xc-service-auth" options="-parameters" />
       <module name="micro-xc-service-impl" options="" />
       <module name="micro-xc-service-member" options="-parameters" />
+      <module name="micro-xc-service-spike" options="-parameters" />
       <module name="micro-xc-service-test" options="-parameters" />
       <module name="micro-xc-service-wechat" options="-parameters" />
       <module name="microxcapimemberentity" options="-parameters" />

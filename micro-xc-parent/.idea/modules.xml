@@ -15,10 +15,14 @@
       <module fileurl="file://$PROJECT_DIR$/micro-xc-portal/micro-xc-portal.iml" filepath="$PROJECT_DIR$/micro-xc-portal/micro-xc-portal.iml" />
       <module fileurl="file://$PROJECT_DIR$/micro-xc-portal/micro-xc-portal-web/micro-xc-portal-web.iml" filepath="$PROJECT_DIR$/micro-xc-portal/micro-xc-portal-web/micro-xc-portal-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api.iml" filepath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-auth/micro-xc-service-api-auth.iml" filepath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-auth/micro-xc-service-api-auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/micro-xc-service-api-member.iml" filepath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-member/micro-xc-service-api-member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-spike/micro-xc-service-api-spike.iml" filepath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-spike/micro-xc-service-api-spike.iml" />
       <module fileurl="file://$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-wechat/micro-xc-service-api-wechat.iml" filepath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-wechat/micro-xc-service-api-wechat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-auth/micro-xc-service-auth.iml" filepath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-auth/micro-xc-service-auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-impl.iml" filepath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-impl.iml" />
       <module fileurl="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/micro-xc-service-member.iml" filepath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/micro-xc-service-member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/micro-xc-service-spike.iml" filepath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/micro-xc-service-spike.iml" />
       <module fileurl="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/micro-xc-service-test.iml" filepath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/micro-xc-service-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/micro-xc-service-wechat.iml" filepath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/micro-xc-service-wechat.iml" />
     </modules>

@@ -34,8 +34,9 @@ eureka:
 
 
   ### resources
-  mvc:
-    static-path-pattern: /static/**
+#  mvc:
+#    static-path-pattern: /static/**
+
   resources:
     static-locations: classpath:/static/
 
@@ -45,6 +46,8 @@ eureka:
     suffix: .ftl
     charset: UTF-8
     request-context-attribute: request
+      # 设置文档类型
+    content-type: text/html
 #    settings:
 #      number_format: 0.##########
 ### xxl-sso

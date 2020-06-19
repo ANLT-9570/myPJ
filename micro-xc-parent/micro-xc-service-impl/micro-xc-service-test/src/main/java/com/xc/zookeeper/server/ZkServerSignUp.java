@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.concurrent.CountDownLatch;
 
-@Component
+//@Component
 public class ZkServerSignUp implements ApplicationRunner {
 
     //springboot启动成功后回调执行的方法

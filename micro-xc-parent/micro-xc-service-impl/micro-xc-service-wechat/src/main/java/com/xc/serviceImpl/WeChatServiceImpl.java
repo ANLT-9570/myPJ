@@ -9,6 +9,7 @@ public class WeChatServiceImpl implements WeChatService {
 
     @Override
     public WeChat getWeChat() {
+        int a = 10/0;
         return new WeChat("1","xc");
     }
 

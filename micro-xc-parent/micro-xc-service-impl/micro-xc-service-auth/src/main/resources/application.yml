@@ -1,0 +1,81 @@
+server:
+  port: 8400
+
+###起个名字作为服务名称(该服务注册到eureka注册中心的名称，比如商品服务)
+spring:
+  application:
+    name: xc-auth #服务名称
+  redis:
+    host: 120.79.42.229
+    timeout: 30000
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://134.175.244.202:3308/auth?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 123456
+    #    type: com.alibaba.druid.pool.DruidDataSource
+    # 下面为连接池的补充设置，应用到上面所有数据源中
+    initial-size: 5
+    min-idle: 5
+    max-active: 20
+    # 配置获取连接等待超时的时间
+    max-wait: 30000
+
+    # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+    time-between-eviction-runs-millis: 60000
+
+    # 配置一个连接在池中最小生存的时间，单位是毫秒
+    min-evictable-idle-time-millis: 300000
+    validation-query: select '1' from dual
+    test-while-idle: true
+    test-on-borrow: false
+    test-on-return: false
+    pool-prepared-statements: true
+    max-open-prepared-statements: 20
+    max-pool-prepared-statement-per-connection-size: 20
+    filters: stat,wall,slf4j
+    logSlowSql: true
+
+    #durid登陆账号密码
+    druid:
+      stat-view-servlet:
+        login-username: root
+        login-password: 123456
+
+  main:
+    allow-bean-definition-overriding: true
+
+###服务注册到eureka注册中心的地址
+eureka:
+  client:
+    service-url:
+      #      defaultZone: http://120.79.42.229:7777/eureka/,http://120.79.42.229:8888/eureka/,http://120.79.42.229:9999/eureka/
+      defaultZone: http://127.0.0.1:10000/eureka/
+    ###因为该应用为服务提供者，是eureka的一个客户端，需要注册到注册中心
+    register-with-eureka: true
+    ###是否需要从eureka上检索服务
+    fetch-registry: true
+  instance:
+    #设置使用IP
+    prefer-ip-address: true
+    #设置外网IP号
+    ip-address: 127.0.0.1   #134.175.244.202
+    #设置外网端口号
+    non-secure-port: 8300
+#    hostname: 127.0.0.1
+
+##swagger相关配置
+swagger:
+  base-package: com.xc.service
+  title: xc_V_1.0
+  description: sc.....
+  version: 1.0
+  terms-of-service-url: xc-member
+  contact:
+    name: xc
+    email: 666
+## 打印mybatis sql日志
+logging:
+  level:
+    ##开发环境使用debug 生产环境使用info或者error
+    com.xc.mapper: debug

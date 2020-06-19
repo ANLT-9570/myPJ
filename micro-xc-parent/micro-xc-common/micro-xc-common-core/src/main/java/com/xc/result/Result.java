@@ -49,6 +49,9 @@ public abstract class Result {
     public static FailureResult failureResult(Tuple2<String, String> info){
         return new FailureResult(info,"");
     }
+    public static FailureResult failureResult(Object o){
+        return new FailureResult("505","505",o);
+    }
     public static FailureResult failureResult(BaseException e){
         return new FailureResult(e);
     }

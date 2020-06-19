@@ -14,7 +14,8 @@ public class HandlerService {
     @Resource
     private HandlerMapper handlerMapper;
 
-    public GatewayHandler getDBFirstHandler(){
+    public GatewayHandler
+    getDBFirstHandler(){
         HandlerEntity firstHandlerEntity = handlerMapper.getFirstHandler();
         if(firstHandlerEntity == null){
             System.out.println("firstHandler........."+firstHandlerEntity);

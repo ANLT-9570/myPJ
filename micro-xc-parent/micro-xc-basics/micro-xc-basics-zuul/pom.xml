@@ -25,6 +25,13 @@
             <artifactId>swagger-spring-boot-starter</artifactId>
             <version>1.7.0.RELEASE</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.micro.xc</groupId>
+            <artifactId>micro-xc-common-core</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 
 </project>

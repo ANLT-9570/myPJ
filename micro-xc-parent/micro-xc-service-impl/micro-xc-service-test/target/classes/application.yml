@@ -1,3 +1,4 @@
+
 server:
   port: 8000
 
@@ -10,6 +11,28 @@ spring:
     url: jdbc:mysql://134.175.244.202:3308/design
     username: root
     password: 123456
+
+#  data:
+#    elasticsearch:
+#      cluster-name: es
+#      cluster-nodes: 192.168.0.101:9300
+
+#  kafka:
+#    #集群地址
+#    bootstrap-servers: 134.175.244.202:9092,120.79.42.229:9092
+#    consumer:
+#      #知道默认的组名
+#      group-id: kafka2
+##      key-deserializer:
+#    producer:
+##      批量抓取
+#      batch-size: 65536
+#      #缓存容量
+#      buffer-memory: 524288
+#      bootstrap-servers: 134.175.244.202:9092,120.79.42.229:9092
+
+
+
 ###服务注册到eureka注册中心的地址
 eureka:
   client:

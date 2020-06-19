@@ -2,23 +2,101 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cea3f8c-ee07-4489-bce9-15fdd77b0393" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/ACL/acl_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/ACL/acl_02_read.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/distributedLock/OrderRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/distributedLock/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/distributedLock/design/Lock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/distributedLock/design/impl/AbstractTemplateLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/distributedLock/template/ZkTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/server/ZkServerDiscovery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/server/ZkServerSignUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/zkCilentWatch/clinet_01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_30.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-zuul/src/main/java/com/xc/build/ZuulDirect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-zuul/src/main/java/com/xc/build/verifyBuild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-zuul/src/main/java/com/xc/build/zuulBuild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-zuul/src/main/java/com/xc/filter/ZuulFilter_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-zuul/src/main/java/com/xc/mapper/BlackList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-zuul/src/main/java/com/xc/mapper/entity/bh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-auth/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-auth/src/main/java/com/xc/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-spike/micro-xc-service-api-spike.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-spike/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-spike/src/main/java/com/xc/SpikeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-auth/micro-xc-service-auth.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-auth/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-auth/src/main/java/com/xc/AuthApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-auth/src/main/java/com/xc/auth/AuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-auth/src/main/java/com/xc/mapper/AuthMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-auth/src/main/java/com/xc/mapper/entity/AppInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-auth/src/main/java/com/xc/utils/Guid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-auth/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/src/main/java/com/xc/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/src/main/java/com/xc/consumer/SpikeConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/src/main/java/com/xc/hand/myIntere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/src/main/java/com/xc/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/src/main/java/com/xc/mapper/SpikeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/src/main/java/com/xc/mapper/entity/order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/src/main/java/com/xc/mapper/entity/seckill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/src/main/java/com/xc/produce/SpikeProduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/src/main/java/com/xc/serviceImpl/SpikeServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/kafka/KafkaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/kafka/kafkaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/muiltithreading/Thread_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/muiltithreading/userDefined/MyExecutorServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/reportedLogs/LogsReportedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/reportedLogs/controller/LogsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/reportedLogs/exception/LogsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/spring/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/spring/SpringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/ZkClusterConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/src/main/java/com/xc/exception/weChatException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_10_6_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_yetus_audience_annotations_0_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-eureka/src/main/java/com/xc/AppEureka.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-eureka/src/main/java/com/xc/discoveryServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-eureka/target/classes/com/xc/AppEureka.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-xxl-sso-server/micro-xc-basics-xxl-sso-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-xxl-sso-server/micro-xc-basics-xxl-sso-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-xxl-sso-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-xxl-sso-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-xxl-sso-server/src/main/java/com/xc/xxl/sso/controller/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-xxl-sso-server/src/main/java/com/xc/xxl/sso/controller/WebController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-xxl-sso-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-xxl-sso-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-xxl-sso-server/src/main/resources/templates/test2.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-xxl-sso-server/src/main/resources/templates/test2.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-xxl-sso-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-xxl-sso-server/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-xxl-sso-server/target/classes/com/xc/xxl/sso/controller/WebController.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-xxl-sso-server/target/classes/com/xc/xxl/sso/controller/WebController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-xxl-sso-server/target/classes/templates/test2.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-xxl-sso-server/target/classes/templates/test2.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-zuul/micro-xc-basics-zuul.iml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-zuul/micro-xc-basics-zuul.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-zuul/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-zuul/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-zuul/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-zuul/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/redis/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/redis/RedisUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/result/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/result/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/token/GenerateToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/token/GenerateToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/target/classes/com/xc/redis/RedisUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/target/classes/com/xc/redis/RedisUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/target/classes/com/xc/result/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/target/classes/com/xc/result/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/target/classes/com/xc/token/GenerateToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/target/classes/com/xc/token/GenerateToken.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/target/classes/com/xc/serviceImpl/MemberLoginServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/target/classes/com/xc/serviceImpl/MemberLoginServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/target/classes/com/xc/serviceImpl/MemberServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/target/classes/com/xc/serviceImpl/MemberServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/micro-xc-service-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/micro-xc-service-test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/zookeeper_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/zookeeper_01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/target/classes/com/xc/design/adapter/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/target/classes/com/xc/design/adapter/Test1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/target/classes/com/xc/design/state/controller/StateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/target/classes/com/xc/design/state/controller/StateController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/handler/service/HandlerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/handler/service/HandlerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/server/ZkServerSignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/server/ZkServerSignUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/zkCilentWatch/clinet_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/zkCilentWatch/clinet_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/target/classes/com/xc/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/target/classes/com/xc/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/target/classes/com/xc/design/handler/service/HandlerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/target/classes/com/xc/design/handler/service/HandlerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/target/classes/com/xc/zookeeper/distributedLock/OrderRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/target/classes/com/xc/zookeeper/distributedLock/OrderRun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/target/classes/com/xc/zookeeper/server/ZkServerSignUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/target/classes/com/xc/zookeeper/server/ZkServerSignUp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/target/classes/com/xc/zookeeper/zkCilentWatch/clinet_01$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/target/classes/com/xc/zookeeper/zkCilentWatch/clinet_01$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/target/classes/com/xc/zookeeper/zkCilentWatch/clinet_01$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/target/classes/com/xc/zookeeper/zkCilentWatch/clinet_01$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/target/classes/com/xc/zookeeper/zkCilentWatch/clinet_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/target/classes/com/xc/zookeeper/zkCilentWatch/clinet_01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/micro-xc-service-wechat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/micro-xc-service-wechat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/src/main/java/com/xc/serviceImpl/WeChatServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/src/main/java/com/xc/serviceImpl/WeChatServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/target/classes/com/xc/serviceImpl/WeChatServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/target/classes/com/xc/serviceImpl/WeChatServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-xc-service-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-xc-service-impl/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/micro-xc-basics/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,6 +117,10 @@
     <ignored path="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-member/target/" />
     <ignored path="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-xxl-sso-server/target/" />
     <ignored path="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/target/" />
+    <ignored path="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-auth/target/" />
+    <ignored path="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-auth/target/" />
+    <ignored path="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-spike/target/" />
+    <ignored path="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,58 +133,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/distributedLock/Test1.java">
+        <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            <state relative-caret-position="24">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/distributedLock/design/Lock.java">
+        <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/muiltithreading/Thread_01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/distributedLock/OrderRun.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/distributedLock/design/impl/AbstractTemplateLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-              <folding>
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#703#704#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="24">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/distributedLock/template/ZkTemplate.java">
+        <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/muiltithreading/userDefined/MyExecutorServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1347">
-              <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="144">
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -124,57 +176,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/StrategyPattern/enumeration/PayEnumerationStrategy.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/StrategyPattern/PayStrategy.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/StrategyPattern/Impl/AliPayStrategy.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/StrategyPattern/Impl/WeChatPayStrategy.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/StrategyPattern/controller/PayController.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/StrategyPattern/context/PayContextStrategy.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/StrategyPattern/factory/PayStrategyFactory.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/ew.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/handler/design2.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/test1.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/StrategyPattern/design1.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/handler/factory/FactoryHandler.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/utils/StringUtils.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/StrategyPattern/entity/HandlerEntity.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/StrategyPattern/mapper/HandlerMapper.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/handler/mapper/HandlerMapper.java" />
+        <option value="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-zuul/src/main/java/com/xc/build/Impl.java" />
+        <option value="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-zuul/src/main/java/com/xc/build/verifyBuild.java" />
+        <option value="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-zuul/src/main/java/com/xc/build/zuulDirect.java" />
+        <option value="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-zuul/src/main/java/com/xc/filter/ZuulFilter_1.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-auth/src/main/java/com/xc/AuthApp.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-auth/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-auth/src/main/java/com/xc/auth/AuthServieImpl.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-auth/src/main/java/com/xc/utils/Guid.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-auth/src/main/java/com/xc/mapper/AuthMapper.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-auth/src/main/java/com/xc/mapper/entity/AppInfo.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-auth/src/main/java/com/xc/AuthService.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-auth/src/main/java/com/xc/auth/AuthServiceImpl.java" />
         <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/handler/service/HandlerService.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/handler/impl/FirstHandler.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/handler/impl/SecondHandler.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/handler/impl/ThirdHandler.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/handler/GatewayHandler.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/handler/controller/HandlerController.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/Test.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/state/design.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/state/design3.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/state/StateDesign.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/state/impl/FirstState.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/state/impl/SecondState.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/state/impl/ThirdState.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/state/controller/StateCOntroller.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/state/context/StateContext.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/adapter/design4.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/adapter/TestService.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/adapter/LisAdapter.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/adapter/Test1.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/state/controller/StateController.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/zookeeper_01.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/ACL/acl_01.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/ACL/acl_02_read.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/src/main/java/com/xc/mapper/entity/seckill.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/src/main/java/com/xc/mapper/OrderMapper.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/src/main/java/com/xc/mapper/entity/order.java" />
+        <option value="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/redis/RedisUtil.java" />
+        <option value="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/token/GenerateToken.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/src/main/java/com/xc/config/RabbitMQ.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/src/main/java/com/xc/service/Impl/SpikeServiceImp.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/src/main/java/com/xc/mapper/SpikeMapper.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/kafka/KafkaController.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/src/main/java/com/xc/hand/myIntere.java" />
+        <option value="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-eureka/src/main/java/com/xc/AppEureka.java" />
+        <option value="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-zuul/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-spike/src/main/java/com/xc/SpikeService.java" />
+        <option value="$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/result/SuccessResult.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/src/main/java/com/xc/produce/SpikeProduce.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/src/main/java/com/xc/consumer/SpikeConsumer.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/src/main/java/com/xc/SpikeApp.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/src/main/java/com/xc/serviceImpl/SpikeServiceImp.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/spring/Myconfig.java" />
         <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/pom.xml" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/server/ZkServerSignIn.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/server/ZkServerSignUp.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/server/ZkServerDiscovery.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/ZkClusterConnect.java" />
         <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/zkCilentWatch/clinet_01.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/distributedLock/design/Lock.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/distributedLock/impl/AbstractTemplateLock.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/distributedLock/design/impl/AbstractTemplateLock.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/distributedLock/OrderRun.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/distributedLock/Test1.java" />
-        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/distributedLock/template/ZkTemplate.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/src/main/java/com/xc/serviceImpl/WeChatServiceImpl.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/server/ZkServerSignUp.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/src/main/java/com/xc/exception/weChatException.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/reportedLogs/exception/LogsException.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-xxl-sso-server/src/main/resources/templates/test2.ftl" />
+        <option value="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-xxl-sso-server/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-xxl-sso-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-xxl-sso-server/src/main/java/com/xc/xxl/sso/controller/WebController.java" />
+        <option value="$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/spring/SpringTest.java" />
       </list>
     </option>
   </component>
@@ -183,11 +235,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="micro-xc-service-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="micro-xc-basics-xxl-sso-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="micro-xc-service-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="micro-xc-basics-xxl-sso-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
@@ -195,8 +247,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="25" />
-    <option name="width" value="1410" />
+    <option name="x" value="491" />
+    <option name="y" value="-3" />
+    <option name="width" value="1409" />
     <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -205,8 +258,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,153 +268,14 @@
             <path>
               <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-basics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-basics-eureka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-basics-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-basics-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-basics-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-basics-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
               <item name="micro-xc-service-impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xc" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xc" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xc" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
-              <item name="distributedLock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xc" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
-              <item name="distributedLock" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-xc-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-xc-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-xc-service-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -375,16 +287,23 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590760303151" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-xxl-sso-server/src/main/resources" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592584100652" />
+    <property name="last_opened_file_path" value="F:/QQ下载的文件/spring_diangou(1)/spring_diangou" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2700556" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\study\myPJ\micro-xc-parent\micro-xc-service-impl\micro-xc-service-spike\src\main\resources" />
+      <recent name="E:\study\myPJ\micro-xc-parent\micro-xc-service-impl\micro-xc-service-auth\src\main\resources" />
       <recent name="E:\study\myPJ\micro-xc-parent\micro-xc-service-impl\micro-xc-service-test\src\main\resources" />
       <recent name="D:\cloud\myPJ\micro-xc-parent\micro-xc-basics\micro-xc-basics-xxl-sso-server\src\main\resources" />
       <recent name="D:\cloud\myPJ\micro-xc-parent\micro-xc-basics\micro-xc-basics-xxl-sso-server\src\main\java\com\xc\xxl\sso" />
-      <recent name="D:\cloud\myPJ\micro-xc-parent\micro-xc-portal\micro-xc-portal-web\src\main\resources\my" />
-      <recent name="D:\cloud\myPJ\micro-xc-parent\micro-xc-portal\micro-xc-portal-web\src\main\resources\static" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.xc.zookeeper.server" />
@@ -397,6 +316,11 @@
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -407,15 +331,15 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.13482533" />
+    <option name="contentProportion" value="0.14986187" />
   </component>
-  <component name="RunManager" selected="Application.Test1">
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xc.zookeeper.distributedLock.Test1" />
+  <component name="RunManager" selected="Application.SpringTest">
+    <configuration name="SpringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xc.spring.SpringTest" />
       <module name="micro-xc-service-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xc.zookeeper.distributedLock.*" />
+          <option name="PATTERN" value="com.xc.spring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -423,67 +347,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZkServerDiscovery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xc.zookeeper.server.ZkServerDiscovery" />
-      <module name="micro-xc-service-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xc.zookeeper.server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="clinet_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xc.zookeeper.zkCilentWatch.clinet_01" />
-      <module name="micro-xc-service-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xc.zookeeper.zkCilentWatch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppEureka" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="micro-xc-basics-eureka" />
+    <configuration name="AppWeChat" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="micro-xc-service-wechat" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xc.AppEureka" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppMember" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="micro-xc-service-api-member" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xc.AppMember" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppWeChat" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="micro-xc-service-api-wechat" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xc.AppWeChat" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppZuul" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="micro-xc-basics-zuul" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xc.AppZuul" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
+    <configuration name="Test" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="micro-xc-service-test" />
       <extension name="coverage">
         <pattern>
@@ -492,28 +369,50 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xc.Test" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XxlClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="micro-xc-basics-xxl-sso-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xc.xxl.sso.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xc.xxl.sso.XxlClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="discoveryServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="micro-xc-basics-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xc.discoveryServer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.AppMember" />
+      <item itemvalue="Application.SpringTest" />
+      <item itemvalue="Spring Boot.discoveryServer" />
       <item itemvalue="Spring Boot.AppWeChat" />
-      <item itemvalue="Spring Boot.AppZuul" />
-      <item itemvalue="Spring Boot.AppEureka" />
       <item itemvalue="Spring Boot.Test" />
-      <item itemvalue="Application.ZkServerDiscovery" />
-      <item itemvalue="Application.clinet_01" />
-      <item itemvalue="Application.Test1" />
+      <item itemvalue="Spring Boot.XxlClientApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.clinet_01" />
-        <item itemvalue="Application.ZkServerDiscovery" />
+        <item itemvalue="Application.SpringTest" />
+        <item itemvalue="Spring Boot.XxlClientApplication" />
+        <item itemvalue="Spring Boot.AppWeChat" />
         <item itemvalue="Spring Boot.Test" />
-        <item itemvalue="Spring Boot.AppEureka" />
+        <item itemvalue="Spring Boot.discoveryServer" />
       </list>
     </recent_temporary>
   </component>
@@ -540,11 +439,25 @@
       <workItem from="1590759163418" duration="1226000" />
       <workItem from="1590760474519" duration="2416000" />
       <workItem from="1590798802181" duration="18902000" />
+      <workItem from="1590995486754" duration="5377000" />
+      <workItem from="1591103596161" duration="4466000" />
+      <workItem from="1591172805675" duration="14206000" />
+      <workItem from="1591253854313" duration="9787000" />
+      <workItem from="1591529979880" duration="7424000" />
+      <workItem from="1591581090556" duration="35052000" />
+      <workItem from="1591750697317" duration="5665000" />
+      <workItem from="1591756683141" duration="7355000" />
+      <workItem from="1591764152590" duration="8019000" />
+      <workItem from="1591807234111" duration="73000" />
+      <workItem from="1591836747023" duration="14850000" />
+      <workItem from="1592041980643" duration="1197000" />
+      <workItem from="1592296357687" duration="617000" />
+      <workItem from="1592469439161" duration="2352000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76613000" />
+    <option name="totallyTimeSpent" value="194812000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -556,10 +469,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22216274" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39150944" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -569,23 +481,24 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32914287" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.344" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.23428571" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17528735" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33764368" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32914287" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3275862" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067383" side_tool="true" weight="0.3275862" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32902297" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.3275862" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49932614" weight="0.30028737" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.054597702" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.2688679" />
+      <window_info anchor="right" id="Maven" order="1" weight="0.3638814" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -593,6 +506,42 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.051212937" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32914287" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17528735" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6566092" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32914287" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3275862" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067383" side_tool="true" weight="0.3275862" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32902297" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49932614" weight="0.30028737" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.054597702" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Maven" order="1" weight="0.3638814" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -607,234 +556,266 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/handler/service/HandlerService.java</url>
-          <line>54</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/handler/impl/FirstHandler.java</url>
           <line>12</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE.jar!/org/springframework/context/annotation/AnnotatedBeanDefinitionReader.class</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/StrategyPattern/factory/PayStrategyFactory.java">
+    <entry file="file://$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-zuul/src/main/java/com/xc/filter/ZuulFilter_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        <state relative-caret-position="236">
+          <caret line="81" column="14" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-api/micro-xc-service-api-spike/src/main/java/com/xc/SpikeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/StrategyPattern/PayStrategy.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/amqp/spring-amqp/2.2.5.RELEASE/spring-amqp-2.2.5.RELEASE.jar!/org/springframework/amqp/core/MessageProperties.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="-3312">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/StrategyPattern/context/PayContextStrategy.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/amqp/spring-amqp/2.2.5.RELEASE/spring-amqp-2.2.5.RELEASE.jar!/org/springframework/amqp/core/Message.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="240">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/src/main/java/com/xc/consumer/SpikeConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/StrategyPattern/controller/PayController.java">
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/src/main/java/com/xc/SpikeApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        <state relative-caret-position="237">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/StrategyPattern/design1.java">
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="385">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/handler/design2.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18.jar!/com/netflix/hystrix/contrib/javanica/annotation/HystrixCommand.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="332">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/StrategyPattern/enumeration/PayEnumerationStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="10" />
+    <entry file="uml://JAVA/org.springframework.context.annotation.AnnotationConfigApplicationContext">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.springframework.context.annotation.AnnotationConfigApplicationContext</OriginalElement>
+          <nodes>
+            <node x="1446.125" y="86.0">org.springframework.beans.factory.HierarchicalBeanFactory</node>
+            <node x="330.625" y="0.0">org.springframework.core.io.ResourceLoader</node>
+            <node x="0.0" y="354.0">org.springframework.beans.factory.support.BeanDefinitionRegistry</node>
+            <node x="1120.625" y="182.0">org.springframework.context.ApplicationContext</node>
+            <node x="1977.125" y="86.0">java.lang.AutoCloseable</node>
+            <node x="740.1340579710144" y="526.0">org.springframework.context.annotation.AnnotationConfigApplicationContext</node>
+            <node x="927.8840579710144" y="440.0">org.springframework.context.support.GenericApplicationContext</node>
+            <node x="2154.625" y="182.0">org.springframework.context.Lifecycle</node>
+            <node x="39.5" y="268.0">org.springframework.core.AliasRegistry</node>
+            <node x="737.625" y="0.0">java.lang.FunctionalInterface</node>
+            <node x="1069.6340579710145" y="354.0">org.springframework.context.support.AbstractApplicationContext</node>
+            <node x="163.125" y="86.0">org.springframework.core.io.DefaultResourceLoader</node>
+            <node x="1741.233695652174" y="268.0">org.springframework.context.ConfigurableApplicationContext</node>
+            <node x="1631.875" y="0.0">org.springframework.beans.factory.BeanFactory</node>
+            <node x="1994.625" y="182.0">java.io.Closeable</node>
+            <node x="1012.125" y="86.0">org.springframework.core.env.EnvironmentCapable</node>
+            <node x="711.125" y="86.0">org.springframework.context.ApplicationEventPublisher</node>
+            <node x="428.125" y="86.0">org.springframework.core.io.support.ResourcePatternResolver</node>
+            <node x="635.8840579710144" y="440.0">org.springframework.context.annotation.AnnotationConfigRegistry</node>
+            <node x="1729.125" y="86.0">org.springframework.beans.factory.ListableBeanFactory</node>
+            <node x="1251.125" y="86.0">org.springframework.context.MessageSource</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.core.env.EnvironmentCapable">
+              <point x="-18.25" y="-18.0" />
+              <point x="1211.875" y="142.0" />
+              <point x="1121.625" y="142.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="org.springframework.context.annotation.AnnotationConfigApplicationContext" target="org.springframework.context.annotation.AnnotationConfigRegistry">
+              <point x="-90.0" y="-18.0" />
+              <point x="830.1340579710144" y="501.0" />
+              <point x="771.8840579710144" y="501.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="org.springframework.core.io.support.ResourcePatternResolver" target="org.springframework.core.io.ResourceLoader">
+              <point x="0.0" y="-18.0" />
+              <point x="559.625" y="61.0" />
+              <point x="468.625" y="61.0" />
+              <point x="46.0" y="18.0" />
+            </edge>
+            <edge source="org.springframework.beans.factory.HierarchicalBeanFactory" target="org.springframework.beans.factory.BeanFactory">
+              <point x="0.0" y="-18.0" />
+              <point x="1577.625" y="61.0" />
+              <point x="1671.125" y="61.0" />
+              <point x="-39.25" y="18.0" />
+            </edge>
+            <edge source="org.springframework.context.support.AbstractApplicationContext" target="org.springframework.core.io.DefaultResourceLoader">
+              <point x="-72.25" y="-18.0" />
+              <point x="1141.8840579710145" y="329.0" />
+              <point x="285.625" y="329.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="org.springframework.context.annotation.AnnotationConfigApplicationContext" target="org.springframework.context.support.GenericApplicationContext">
+              <point x="90.0" y="-18.0" />
+              <point x="1010.1340579710144" y="501.0" />
+              <point x="1068.3840579710145" y="501.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="org.springframework.context.support.GenericApplicationContext" target="org.springframework.context.support.AbstractApplicationContext">
+              <point x="70.25" y="-18.0" />
+              <point x="1138.6340579710145" y="415.0" />
+              <point x="1214.1340579710145" y="415.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="org.springframework.beans.factory.ListableBeanFactory" target="org.springframework.beans.factory.BeanFactory">
+              <point x="0.0" y="-18.0" />
+              <point x="1843.125" y="61.0" />
+              <point x="1749.625" y="61.0" />
+              <point x="39.25" y="18.0" />
+            </edge>
+            <edge source="org.springframework.core.io.DefaultResourceLoader" target="org.springframework.core.io.ResourceLoader">
+              <point x="0.0" y="-18.0" />
+              <point x="285.625" y="61.0" />
+              <point x="376.625" y="61.0" />
+              <point x="-46.0" y="18.0" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.BeanDefinitionRegistry" target="org.springframework.core.AliasRegistry">
+              <point x="0.0" y="-18.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="org.springframework.context.ConfigurableApplicationContext" target="org.springframework.context.ApplicationContext">
+              <point x="-108.33333333333326" y="-18.0" />
+              <point x="1795.4003623188405" y="248.0" />
+              <point x="1230.125" y="248.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.beans.factory.HierarchicalBeanFactory">
+              <point x="54.75" y="-18.0" />
+              <point x="1284.875" y="152.0" />
+              <point x="1577.625" y="152.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="org.springframework.context.ConfigurableApplicationContext" target="java.io.Closeable">
+              <point x="0.0" y="-18.0" />
+              <point x="1903.733695652174" y="238.0" />
+              <point x="2064.625" y="238.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
+              <point x="0.0" y="-18.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.context.ApplicationEventPublisher">
+              <point x="-54.75" y="-18.0" />
+              <point x="1175.375" y="152.0" />
+              <point x="851.625" y="152.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.context.MessageSource">
+              <point x="18.25" y="-18.0" />
+              <point x="1248.375" y="142.0" />
+              <point x="1338.625" y="142.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.beans.factory.ListableBeanFactory">
+              <point x="91.25" y="-18.0" />
+              <point x="1321.375" y="162.0" />
+              <point x="1843.125" y="162.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationEventPublisher" target="java.lang.FunctionalInterface">
+              <point x="0.0" y="-18.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.core.io.support.ResourcePatternResolver">
+              <point x="-91.25" y="-18.0" />
+              <point x="1138.875" y="162.0" />
+              <point x="559.625" y="162.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="org.springframework.context.ConfigurableApplicationContext" target="org.springframework.context.Lifecycle">
+              <point x="108.33333333333326" y="-18.0" />
+              <point x="2012.067028985507" y="248.0" />
+              <point x="2224.625" y="248.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="org.springframework.context.support.AbstractApplicationContext" target="org.springframework.context.ConfigurableApplicationContext">
+              <point x="72.25" y="-18.0" />
+              <point x="1286.3840579710145" y="329.0" />
+              <point x="1903.733695652174" y="329.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="org.springframework.context.support.GenericApplicationContext" target="org.springframework.beans.factory.support.BeanDefinitionRegistry">
+              <point x="-70.25" y="-18.0" />
+              <point x="998.1340579710144" y="415.0" />
+              <point x="127.0" y="415.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9321055251368839" x="549.0" y="124.0" />
+          <SelectedNodes>
+            <node>org.springframework.context.annotation.AnnotationConfigApplicationContext</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.2.5.RELEASE/spring-web-5.2.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/utils/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
-          <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/handler/mapper/HandlerMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/handler/service/HandlerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/handler/impl/ThirdHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/handler/GatewayHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/handler/controller/HandlerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/handler/factory/FactoryHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/handler/impl/SecondHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/handler/impl/FirstHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/state/context/StateContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/adapter/TestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/adapter/LisAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/adapter/design4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/adapter/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/handler/entity/HandlerEntity.java">
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/zookeeper_01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -844,239 +825,388 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/state/design3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/state/StateDesign.java">
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/ZkClusterConnect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/state/impl/FirstState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/state/impl/SecondState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/state/impl/ThirdState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/design/state/controller/StateController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/zookeeper/zookeeper/3.4.13/zookeeper-3.4.13.jar!/org/apache/zookeeper/WatchedEvent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-          <folding>
-            <element signature="e#970#971#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/zookeeper/zookeeper/3.4.13/zookeeper-3.4.13.jar!/org/apache/zookeeper/Watcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
-          <folding>
-            <element signature="e#1870#1871#0" expanded="true" />
-            <element signature="e#1926#1927#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/zookeeper/zookeeper/3.4.13/zookeeper-3.4.13.jar!/org/apache/zookeeper/data/Id.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/ACL/acl_01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/zookeeper/zookeeper/3.4.13/zookeeper-3.4.13.jar!/org/apache/zookeeper/data/Stat.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/zookeeper/zookeeper/3.4.13/zookeeper-3.4.13.jar!/org/apache/zookeeper/ZooKeeper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="424" column="58" selection-start-line="424" selection-start-column="58" selection-end-line="424" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/zookeeper_01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/server/ZkServerSignUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/server/ZkServerDiscovery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="16" selection-start-line="16" selection-end-line="19" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/com/101tec/zkclient/0.11/zkclient-0.11.jar!/org/I0Itec/zkclient/ZkClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="71" column="11" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk8/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="462" column="11" selection-start-line="462" selection-start-column="11" selection-end-line="462" selection-end-column="11" />
-          <folding>
-            <element signature="e#15704#15705#0" expanded="true" />
-            <element signature="e#15770#15771#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="682">
+          <caret line="113" column="21" selection-start-line="113" selection-start-column="21" selection-end-line="113" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/zkCilentWatch/clinet_01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="384">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/ACL/acl_02_read.java">
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/spring/MyConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        <state relative-caret-position="48">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/ACL/acl_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.2.6.RELEASE/spring-boot-autoconfigure-2.2.6.RELEASE.jar!/org/springframework/boot/autoconfigure/data/elasticsearch/ElasticsearchAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/Test.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.2.5.RELEASE/spring-web-5.2.5.RELEASE.jar!/org/springframework/web/bind/annotation/RestControllerAdvice.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/server/ZkServerSignUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-672">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/src/main/java/com/xc/AppWeChat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/src/main/java/com/xc/serviceImpl/WeChatServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/src/main/java/com/xc/exception/weChatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-xxl-sso-server/src/main/resources/templates/test2.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/5.2.5.RELEASE/spring-webmvc-5.2.5.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="551" selection-start-line="551" selection-end-line="551" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/5.2.5.RELEASE/spring-webmvc-5.2.5.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.2.5.RELEASE/spring-web-5.2.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-xxl-sso-server/src/main/java/com/xc/xxl/sso/XxlClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#532#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-xxl-sso-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-xxl-sso-server/src/main/java/com/xc/xxl/sso/controller/WebController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="173" lean-forward="true" selection-start-line="173" selection-end-line="173" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-wechat/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-basics/micro-xc-basics-xxl-sso-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE.jar!/org/springframework/beans/factory/config/BeanDefinition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE.jar!/org/springframework/beans/factory/annotation/AnnotatedBeanDefinition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/5.2.5.RELEASE/spring-core-5.2.5.RELEASE.jar!/org/springframework/core/type/AnnotationMetadata.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+          <folding>
+            <element signature="e#2033#2034#0" expanded="true" />
+            <element signature="e#2093#2094#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanDefinition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+          <folding>
+            <element signature="e#11314#11315#0" expanded="true" />
+            <element signature="e#11356#11357#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE.jar!/org/springframework/beans/factory/annotation/AnnotatedGenericBeanDefinition.class">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/spring/SpringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="72" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1248">
+          <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE.jar!/org/springframework/context/annotation/AnnotatedBeanDefinitionReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="95" column="43" selection-start-line="95" selection-start-column="43" selection-end-line="95" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/reportedLogs/LogsReportedController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/reportedLogs/controller/LogsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" selection-start-line="7" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/reportedLogs/exception/LogsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="40" column="39" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/src/main/java/com/xc/produce/SpikeProduce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="65" column="55" selection-start-line="65" selection-start-column="55" selection-end-line="65" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-portal/micro-xc-portal-web/src/main/java/com/xc/web/controller/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/redis/RedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-common/micro-xc-common-core/src/main/java/com/xc/token/GenerateToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-spike/src/main/java/com/xc/serviceImpl/SpikeServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="107" column="55" lean-forward="true" selection-start-line="107" selection-start-column="55" selection-end-line="107" selection-end-column="55" />
+          <folding>
+            <element signature="method#spike#0;class#SpikeServiceImp#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        <state relative-caret-position="24">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/distributedLock/Test1.java">
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/muiltithreading/Thread_01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        <state relative-caret-position="24">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/distributedLock/OrderRun.java">
+    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/muiltithreading/userDefined/MyExecutorServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="144">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/distributedLock/design/Lock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/distributedLock/design/impl/AbstractTemplateLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-          <folding>
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-xc-service-impl/micro-xc-service-test/src/main/java/com/xc/zookeeper/distributedLock/template/ZkTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1347">
-          <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|micro-xc-service-spike</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2700556" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
